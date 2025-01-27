@@ -1,0 +1,488 @@
+
+ /* ============= commmon css start ============== */
+ *{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+.body{
+    font-family:"Poppins", serif;
+}
+/* ============= commmon css end ============== */
+
+/* ============= navber part start ============== */ 
+.navbar{
+    width: 100%;
+    border-bottom: 1px solid #9F9F9F;
+    margin-bottom: 34px;
+}
+.navbar-brand{
+    padding-top: 52px;
+    padding-bottom: 45px;
+    margin-right: 114px;
+}
+.nav-item{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+}
+.me-auto {
+    margin-right: 5px !important;
+}
+.nav-item .nav-link{
+    margin-right: 30px;
+    color: #121212;
+}
+
+.navbar .form-control {
+    width: 500px;
+    padding: 20px 25px;
+    appearance: none;
+    color: #121212;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 20px;
+    border: 1px solid #FFF;
+    background: rgba(69, 110, 214, 0.05);
+}
+
+.navbar-collapse i {
+    color: #121212;
+    position: relative;
+    top: 25px;
+    left: -50px;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+}
+.icon i{
+    position: relative;
+    top: 6px;
+    left: 0;
+    color: #456ED6;
+}
+
+
+/* ============= navber part end ============== */  
+
+/* ============= banner part start ============== */ 
+#banner .carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #456ED6;
+}
+.carousel-item{
+    text-align: center;
+    max-width: 100%;
+}
+#banner .carousel-indicators{
+    position: absolute;
+    bottom: -50px;
+    left: 465px;
+    display: flex;
+    justify-content: start;
+}
+#banner .carousel-inner{
+    display: flex;
+    column-gap: 10px;
+}
+#banner .carousel-item img{
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+/* ============= banner part end ============== */
+
+/* ============= bill part start ============== */ 
+#bill{
+    padding-top: 42px;
+    padding-bottom: 121px;
+}
+
+#bill .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bill .heading h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#bill .heading button{
+    padding: 9px 30px;
+    color: #456ED6;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 15px;
+    border: 1px solid #456ED6;
+    background: #FFF;
+}
+#bill .boxt{
+    width: 100%;
+    justify-content: space-between;
+    padding: 18px 23px 30px 40px;
+    border-radius: 20px;
+    border: 1px solid #9F9F9F;
+    margin-top: 50px;
+    position: relative;
+}
+#bill .boxt::after{
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 60px;
+    left: 0;
+    border: 1px solid #9F9F9F;
+    height: 1px;
+}
+
+#bill .boxt .right{
+    text-align: right;
+}
+#bill .boxt .left h5{
+    color: #121212;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 48px;
+    position: relative;
+}
+#bill .boxt .left h5::after {
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    content: "";
+    height: 6px;
+    background: #456ED6;
+    width: 60px;
+}
+#bill .boxd{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+#bill .boxd .leftd h6{
+    color: #121212;
+    opacity: 0.9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#bill .boxd .leftd input{
+    width: 500px;
+    padding: 20px 27px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    margin-top: 16px;
+
+}
+#bill .boxd .middle h6{
+    color: #121212;
+    opacity: 0.9;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#bill .boxd .middle .form-select{
+    width: 500px;
+    padding: 20px 27px;
+    border-radius: 15px;
+    border: 1px solid #9F9F9F;
+    margin-top: 16px;
+}
+
+#bill .boxd .rightd button{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 15px;
+    background: #456ED6;
+    padding: 20px 50px;
+    border: 0;
+    margin-top: 40px;
+}
+
+/* ============= bill part end ============== */ 
+
+/* ============= catagory part start ============== */ 
+#catagory{
+    padding-bottom: 121px;
+}
+#catagory h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 58px;
+}
+#catagory .red{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#catagory .red .cat-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    row-gap: 34px;
+}
+#catagory .red .cat-item img{
+    object-fit: cover;
+}
+#catagory .red .cat-item span{
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+/* ============= catagory part end ============== */ 
+
+/* ============= flash part start ============== */
+#flash{
+    background: linear-gradient(263deg, #456ED6 0.8%, #8AABFF 99.2%);
+    padding: 70px 0;
+    margin-bottom: 121px;
+}
+#flash .flash-part{
+    align-items: center;
+}
+#flash .flash-part .fcard{
+    display: flex;
+    justify-content: center;
+}
+#flash .flash-icon .aaa{
+    margin-right: 10px;
+}
+#flash .flash-icon .aaa h3{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 7px;
+}
+#flash .flash-icon .aaa p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+#flash .flash-icon .btn{
+    padding: 10px 20px;
+    border-radius: 15px;
+    background: #FFF;
+}
+#flash .flash-icon .btn a{
+    color: #456ED6;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#flash .card{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+#flash .card-body .main {
+    display: flex;
+    justify-content: space-between;
+}
+#flash .card-body .card-text{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#flash .card-body .rp{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#flash .card-body .left span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#flash .card-body .right{
+    text-align: right;
+}
+#flash .card-body .right i{
+    color: #FFC540;
+}
+
+#flash .card-body .right span{
+    margin-left: 5px;
+}
+
+#flash .card-body .bar{
+    margin-top: 18px;
+    max-width: 100%;
+    height: 8px;
+    border-radius: 50px;
+    background: #456ED6;
+    border: 1px solid transparent;
+}
+#flash .card-body span{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    opacity: 0.8;
+    margin-top: 4px;
+}
+
+
+/* ============= flash part end ============== */ 
+
+/* ============= catagory2 part start ============== */ 
+#catagory2 .cleft h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#catagory2 .cata{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#catagory2 .btnn{
+    padding-right: 30px;
+}
+#catagory2 .btnn a{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 1px solid #456ED6;
+}
+#catagory2 .cimg{
+    row-gap: 30px;
+}
+#catagory2 .cimg .citem{
+    height: 100%;
+    overflow: hidden;
+}
+#catagory2 .cimg .citem img{
+    object-fit: cover;
+}
+/* ============= catagory2 part end ============== */ 
+
+/* ============= product part start ============== */ 
+#product{
+    margin-top: 121px;
+    padding-bottom: 17px;
+
+}
+#product .ptitle h3{
+    color: #121212;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+#product .tata{
+    display: flex;
+    justify-content: center;
+}
+#product .card{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #9F9F9F;
+}
+#product .card-body .card-text{
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#product .card-body .rp{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+#product .card-body .popular{
+    display: flex;
+    justify-content: space-between;
+}
+#product .card-body .popular .left span{
+    color: #121212;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#product .card-body .right span{
+    color: #121212;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#product .card-body .right{
+    text-align: right;
+}
+#product .card-body .left i{
+    color: #FFC540;
+}
+
+
+/* ============= product part end ============== */ 

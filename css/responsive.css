@@ -1,0 +1,272 @@
+@media (max-width:575px){
+
+    .navbar {
+        margin-bottom: 0px;
+        border-bottom: 1px solid #9F9F9F;
+    }
+
+    .navbar-brand {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow:none;
+    }
+
+    .navbar-toggler {
+        border: 0
+    }
+
+
+    #banner{
+        margin-top: 15px;
+    }
+    #banner .carousel-item img {
+        width: 95%;
+    }
+    #banner .carousel-inner {
+        display: flex;
+        column-gap: 10px;
+    }
+    #banner .carousel-indicators {
+        bottom: -50px;
+        left: 50%;
+        transform: translate(-100%,0%);
+    }
+    #banner .carousel-indicators [data-bs-target] {
+        width: 7px;
+        height: 7px;
+    }
+    #bill {
+        padding-bottom: 30px;
+    }
+    #bill .heading h3 {
+        font-size: 20px;
+    }
+    #bill .heading button {
+        padding: 3px 7px;
+        font-size: 14px;
+        border-radius: 8px;
+    }
+    #bill .boxt {
+        padding: 7px 5px 17px 10px;
+        border-radius: 10px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    #bill .boxt .left h5 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #bill .boxt .left h5::after {
+        bottom: -10px;
+    }
+    #bill .boxt::after {
+        top: 34px;
+    }
+    #bill .boxd {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #bill .boxd .leftd input {
+        max-width: 270px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    #bill .boxd .middle .form-select {
+        max-width: 270px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    #bill .boxd .leftd h6 {
+        font-size: 15px;
+    }
+
+    #bill .boxd .middle h6 {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    #bill .boxd .rightd button {
+        font-size: 14px;
+        border-radius: 15px;
+        padding: 10px 35px;
+        margin-top: 15px;
+    }
+    #catagory {
+        padding-bottom: 20px;
+    }
+    #catagory h3 {
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+
+    #catagory .red {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 15px;
+        column-gap: 10px;
+    }
+    #catagory .red .cat-item img {
+        width: 60px;
+    }
+
+    #catagory .red .cat-item span {
+        font-size: 12px;
+    }
+    #catagory .red .cat-item {
+        row-gap: 8px;
+    }
+    #flash {
+        background: linear-gradient(263deg, #456ED6 0.8%, #8AABFF 99.2%);
+        padding: 24px 0;
+        margin-bottom: 30px;
+    }
+    #flash .flash-icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+    }
+    #flash .flash-icon img{
+        width: 35px;
+        height: 35px;
+    }
+
+    #flash .flash-icon .aaa{
+       margin-right: 70px;
+    }
+    #flash .flash-icon .aaa h3 {
+        font-size: 20px;
+    }
+    #flash .flash-icon .aaa p {
+        font-size: 10px;
+        margin-bottom: 11px;
+    }
+
+    #flash .flash-icon .btn {
+        padding: 4px 13px;
+        border-radius: 10px;
+    }
+    #flash .flash-part .fcard{
+        margin-bottom: 15px;
+    }
+    #flash .flash-icon .btn a {
+        font-size: 13px;
+    }
+
+    #flash .card-body .card-text {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    #flash .card-body .rp {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    #flash .card-body .left span {
+        font-size: 12px;
+    }
+
+    #flash .card-body .right i {
+        font-size: 12px;
+    }
+
+    #flash .card-body .right span {
+        margin-left: 1px;
+        font-size: 12px;
+    }
+    #flash .card-body span {
+        font-size: 12px;
+    }
+    #catagory2 .cleft h3 {
+        font-size: 20px;
+    }
+
+    #catagory2 .btnn a {
+        padding: 6px 15px;
+        border-radius: 10px;
+    }
+
+    #catagory2 .cata {
+        margin-bottom: 25px;
+        justify-content: center;
+        column-gap: 32px;
+    }
+    #catagory2 .cimg .citem {
+        display: flex;
+        justify-content: center;
+    }
+    #catagory2 .btnn {
+        padding-right: 0px;
+    }
+    #catagory2 .cimg {
+        row-gap: 15px;
+    }
+    #product {
+        margin-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    #product .ptitle h3 {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #product .tata {
+        margin-bottom: 15px;
+    }
+    .card-body {
+        padding: 10px;
+    }
+
+    #product .card-body .card-text {
+        font-size: 13px;
+        margin-bottom: 3px;
+    }
+    #product .card-body .rp {
+        font-size: 17px;
+        margin-bottom: 4px;
+    }
+    #product .card-body .left i {
+        font-size: 12px;
+    }
+    #product .card-body .right span {
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ================== end ==================== */
+}
