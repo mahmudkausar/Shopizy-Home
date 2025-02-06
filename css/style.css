@@ -69,18 +69,37 @@ h1,h2,h3,h4,h5,h6,p{
     left: -50px;
     font-size: 20px;
 }
-.icon{
+.navbar .icon{
     display: flex;
     flex-direction: row;
     column-gap: 30px;
 }
-.icon i{
+.navbar .icon i{
     position: relative;
     top: 6px;
     left: 0;
     color: #456ED6;
 }
-
+.navbar .icon .fa-bell::after {
+    position: absolute;
+    top: -1px;
+    right: -2px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #FFC540;
+}
+.navbar .icon .fa-comment-dots::after {
+    position: absolute;
+    top: 0px;
+    right: -3px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #FFC540;
+}
 
 /* ============= navber part end ============== */  
 
@@ -309,8 +328,8 @@ h1,h2,h3,h4,h5,h6,p{
     margin-bottom: 30px;
 }
 
-#flash .flash-icon .btn{
-    padding: 10px 20px;
+#flash .flash-icon .btn {
+    padding: 10px 40px;
     border-radius: 15px;
     background: #FFF;
 }
@@ -369,6 +388,13 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 18px;
     max-width: 100%;
     height: 8px;
+    border-radius: 50px;
+    background: rgba(69, 110, 214, 0.5 );
+    border: 1px solid transparent;
+}
+#flash .card-body .bar .bar2{
+    max-width: 50%;
+    height: 7px;
     border-radius: 50px;
     background: #456ED6;
     border: 1px solid transparent;
